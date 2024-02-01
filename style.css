@@ -1,0 +1,25 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reviews-box {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.reviews_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.reviews_content > * {
+    width: 200px;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px 10px lightgray;
+}
